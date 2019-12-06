@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" href="snek2.png">
+    <link rel="stylesheet" href="snekstyles.css">
+
+    <title>no step on snek</title>
+
+</head>
+<body>
+    <div id="page">
+        <div class="stat">
+            <div id="snakeimage1"><img src="snek2.png"></div>
+            <div class="numbers">
+                <div id="xvalue">X: 960</div>
+                <div id="yvalue">Y: 540</div>
+            </div>
+        </div>
+        <div class="display">
+            <canvas id="canvas" width="500" height="500">CANVAS</canvas>
+        </div>
+        <div class="content">
+            <div id="timealive">Time Alive: 0</div>
+            <div id="score">Score: 0</div>
+        </div>
+        <div class="buttoncontainer">
+            <div id="refreshBTN"><b>Refresh</b></div>
+            <div id="restartBTN"><b>New Food</b></div>
+            <div id="colourBTN"><b>Colour</b></div>
+        </div>
+    </div>
+    <div class="instructions">
+        <h1>Controls</h1>
+        <p>Arrow Keys To Move</p>
+    </div>
+</body>
+<script src="snekhavascrip.js"></script> <!-- Must put this at end of body, so document has loaded DOM first -->
+<script src="backgroundfetch.js"></script> <!-- Must put this at end of body, so document has loaded DOM first -->
+</html>

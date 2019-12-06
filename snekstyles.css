@@ -4,6 +4,27 @@ html {
     justify-content: center;
 }
 
+.instructions {
+    margin: 30px;
+    font-size: 20pt;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(10, 10, 10, 0.50);
+}
+
+.instructions h1 {
+    color: black;
+    margin: 10px;
+    color: rgba(255,255,255,0.60);
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+
+.instructions p {
+    color: rgba(255,255,255,0.60);
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+
 body {
     height: 100%;
     background-position: center;
