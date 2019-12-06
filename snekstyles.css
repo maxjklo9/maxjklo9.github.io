@@ -1,0 +1,104 @@
+html {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: inherit;
+}
+
+canvas {
+    border: 1px solid white;
+}
+.display {
+    border: 3px solid white;
+    padding: 10px;
+    /*position: absolute;*/
+}
+#snakeimage1 img {
+    width: 45px;
+}
+.stat {
+    display: flex;
+    flex-direction: row;
+}
+.numbers {
+    padding-left: 10px;
+}
+#page {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.display {
+    cursor: not-allowed;
+    background-color: rgba(200, 200, 200, 0.40);
+}
+
+.content {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25pt;
+    color: #FFFFFF;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+
+#timealive {
+    padding-right: 10px;
+    text-align: right;
+}
+
+#score {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.buttoncontainer {
+    font-size: 15pt;
+    border: 50px darkslategray;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+#refreshBTN {
+    cursor: cell;
+    padding: 10px;
+    background-color: rosybrown;
+}
+
+#refreshBTN:hover {
+    background-color: black;
+    color: white;
+}
+
+#restartBTN {
+    cursor: cell;
+    padding: 10px;
+    background-color: peru;
+}
+
+#restartBTN:hover {
+    background-color: black;
+    color: white;
+}
+
+#colourBTN {
+    cursor: cell;
+    padding: 10px;
+    border-color: tan;
+    background-color: tan;
+}
+
+#colourBTN:hover {
+    background-color: black;
+    color: white;
+}
